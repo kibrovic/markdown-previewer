@@ -2,7 +2,7 @@
   "name": "markdown",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://markdown-previever.herokuapp.com/",
+  "homepage": "https://markdown-previewer-ki.herokuapp.com/",
   "dependencies": {
     "marked": "^0.3.6",
     "react": "^15.6.1",
