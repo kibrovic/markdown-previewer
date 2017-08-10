@@ -9,7 +9,8 @@
 
 .App-header {
   background-color: #222;
-  height: 150px;
+  height: 8%;
+  padding: 20px;
   color: white;
 }
 
@@ -22,11 +23,19 @@
   to { transform: rotate(360deg); }
 }
 
-.input {
+.Input {
   padding: 20px;
 }
 
-.output {
+.Output {
   padding: -20px;
   text-align: justify;
+}
+
+.MarkdownContainer {
+  margin-top: 20px;
+}
+
+textarea {
+  width: 100%;
 }

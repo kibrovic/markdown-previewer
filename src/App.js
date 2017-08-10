@@ -40,8 +40,8 @@ class InputArea extends Component {
   render() {
     const input = this.props.userInput;
     return (
-      <div className="col-md-6 input">
-        <textarea rows={22} cols={66} onChange={this.handleInput} value={input}>
+      <div className="col-md-6 Input">
+        <textarea rows={22} onChange={this.handleInput} value={input}>
         </textarea>
       </div>
     );
@@ -58,7 +58,7 @@ class OutputArea extends Component {
     const output = this.props.userInput;
 
     return (
-      <div className="col-md-6 output">
+      <div className="col-md-6 Output">
         <span dangerouslySetInnerHTML={this.markedText(output)}></span>
       </div>
     );
@@ -82,7 +82,7 @@ class MarkdownContainer extends Component {
 
   render() {
     return (
-      <div>
+      <div className="MarkdownContainer">
         <InputArea userInput = {this.state.userInput} onInputChange = {this.handleUserInput} />
         <OutputArea userInput = {this.state.userInput}/>
       </div>
