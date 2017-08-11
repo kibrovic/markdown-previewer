@@ -85,6 +85,9 @@ class MarkdownContainer extends Component {
       <div className="MarkdownContainer">
         <InputArea userInput = {this.state.userInput} onInputChange = {this.handleUserInput} />
         <OutputArea userInput = {this.state.userInput}/>
+        <code>
+          Source code on <a href="https://github.com/kibrovic/markdown-previewer">github</a>
+        </code>
       </div>
     );
   }
